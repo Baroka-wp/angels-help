@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/angels-help/static/css/main.36523fba.css",
+    "main.js": "/angels-help/static/js/main.927dc215.js",
+    "static/media/angel.jpeg": "/angels-help/static/media/angel.8e43bc597ed3dfa7c53a.jpeg",
+    "index.html": "/angels-help/index.html",
+    "main.36523fba.css.map": "/angels-help/static/css/main.36523fba.css.map",
+    "main.927dc215.js.map": "/angels-help/static/js/main.927dc215.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36523fba.css",
+    "static/js/main.927dc215.js"
+  ]
+}
