@@ -15,14 +15,15 @@ const Categories = () => {
   const store = useSelector((state) => state.angels);
   const countAngelsbyCategory = (categoryName) => {
     const angelList = [...store].filter((item) => item.category === categoryName);
-    return { count: angelList.length, angelList };
+    return { count: angelList.length };
   };
 
   return (
     <>
       <Link
         to="/angelsList"
-        state={{ angelsList: countAngelsbyCategory('Money').angelList, category: 'Money' }}
+        name="money"
+        state={{ category: 'Money' }}
         className="card"
       >
         <div className="sumary">
@@ -43,7 +44,8 @@ const Categories = () => {
       </Link>
       <Link
         to="/angelsList"
-        state={{ angelsList: countAngelsbyCategory('Love').angelList, category: 'Love' }}
+        name="love"
+        state={{ category: 'Love' }}
         className="card ligth-card"
       >
         <div className="sumary">
@@ -64,7 +66,8 @@ const Categories = () => {
       </Link>
       <Link
         to="/angelsList"
-        state={{ angelsList: countAngelsbyCategory('Job').angelList, category: 'Job' }}
+        name="job"
+        state={{ category: 'Job' }}
         className="card ligth-card"
       >
         <div className="sumary">
@@ -85,7 +88,8 @@ const Categories = () => {
       </Link>
       <Link
         to="/angelsList"
-        state={{ angelsList: countAngelsbyCategory('health').angelList, category: 'health' }}
+        name="health"
+        state={{ category: 'health' }}
         className="card"
       >
         <div className="sumary">
@@ -106,7 +110,8 @@ const Categories = () => {
       </Link>
       <Link
         to="/angelsList"
-        state={{ angelsList: countAngelsbyCategory('Protection').angelList, category: 'Protection' }}
+        name="protection"
+        state={{ category: 'Protection' }}
         className="card"
       >
         <div className="sumary">
@@ -127,7 +132,8 @@ const Categories = () => {
       </Link>
       <Link
         to="/angelsList"
-        state={{ angelsList: countAngelsbyCategory('Spirituality').angelList, category: 'Spirituality' }}
+        name="spirituality"
+        state={{ category: 'Spirituality' }}
         className="card ligth-card"
       >
         <div className="sumary">

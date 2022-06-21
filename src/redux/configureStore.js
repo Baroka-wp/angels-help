@@ -4,7 +4,7 @@ import loaderReducer from './loader/loader';
 
 const rootReducer = combineReducers({
   angels: angelsReducer,
-  loder: loaderReducer,
+  loader: loaderReducer,
 });
 
 const store = configureStore({ reducer: rootReducer });

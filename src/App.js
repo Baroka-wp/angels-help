@@ -5,7 +5,7 @@ import './App.css';
 import Home from './components/Home';
 import AngelsDetails from './components/Pages/AngelsDetails';
 import AngelsList from './components/Pages/AngelsList';
-import { fetchAgels } from './components/redux/angels/angels';
+import { fetchAgels } from './redux/angels/angels';
 
 const App = () => {
   const dispatch = useDispatch();

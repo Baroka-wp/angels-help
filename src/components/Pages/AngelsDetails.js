@@ -19,7 +19,6 @@ const AngelsDetails = () => {
           </small>
           <br />
           <small>
-            Regence :
             {angel.regenceDays}
             /
             {angel.regenceMonth}
