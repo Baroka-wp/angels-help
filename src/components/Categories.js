@@ -21,7 +21,7 @@ const Categories = () => {
   return (
     <>
       <Link
-        to="/angelsList"
+        to="/angels-help/angelsList"
         name="money"
         state={{ category: 'Money' }}
         className="card"
@@ -43,7 +43,7 @@ const Categories = () => {
         </div>
       </Link>
       <Link
-        to="/angelsList"
+        to="/angels-help/angelsList"
         name="love"
         state={{ category: 'Love' }}
         className="card ligth-card"
@@ -65,7 +65,7 @@ const Categories = () => {
         </div>
       </Link>
       <Link
-        to="/angelsList"
+        to="/angels-help/angelsList"
         name="job"
         state={{ category: 'Job' }}
         className="card ligth-card"
@@ -87,7 +87,7 @@ const Categories = () => {
         </div>
       </Link>
       <Link
-        to="/angelsList"
+        to="/angels-help/angelsList"
         name="health"
         state={{ category: 'health' }}
         className="card"
@@ -109,7 +109,7 @@ const Categories = () => {
         </div>
       </Link>
       <Link
-        to="/angelsList"
+        to="/angels-help/angelsList"
         name="protection"
         state={{ category: 'Protection' }}
         className="card"
@@ -131,7 +131,7 @@ const Categories = () => {
         </div>
       </Link>
       <Link
-        to="/angelsList"
+        to="/angels-help/angelsList"
         name="spirituality"
         state={{ category: 'Spirituality' }}
         className="card ligth-card"

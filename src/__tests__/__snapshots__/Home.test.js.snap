@@ -30,7 +30,7 @@ Array [
   >
     <a
       className="card"
-      href="/angelsList"
+      href="/angels-help/angelsList"
       name="money"
       onClick={[Function]}
     >
@@ -108,7 +108,7 @@ Array [
     </a>
     <a
       className="card ligth-card"
-      href="/angelsList"
+      href="/angels-help/angelsList"
       name="love"
       onClick={[Function]}
     >
@@ -186,7 +186,7 @@ Array [
     </a>
     <a
       className="card ligth-card"
-      href="/angelsList"
+      href="/angels-help/angelsList"
       name="job"
       onClick={[Function]}
     >
@@ -264,7 +264,7 @@ Array [
     </a>
     <a
       className="card"
-      href="/angelsList"
+      href="/angels-help/angelsList"
       name="health"
       onClick={[Function]}
     >
@@ -342,7 +342,7 @@ Array [
     </a>
     <a
       className="card"
-      href="/angelsList"
+      href="/angels-help/angelsList"
       name="protection"
       onClick={[Function]}
     >
@@ -420,7 +420,7 @@ Array [
     </a>
     <a
       className="card ligth-card"
-      href="/angelsList"
+      href="/angels-help/angelsList"
       name="spirituality"
       onClick={[Function]}
     >

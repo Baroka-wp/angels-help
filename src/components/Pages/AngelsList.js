@@ -31,7 +31,7 @@ const AngelsList = () => {
           angelsList.map((angel, index) => (
             <Link
               key={angel.order}
-              to="/angelsDetails"
+              to="/angels-help/angelsDetails"
               state={{ angel }}
               className={index % 2 === 0 ? 'angelsList ligth-card' : 'angelsList'}
             >
