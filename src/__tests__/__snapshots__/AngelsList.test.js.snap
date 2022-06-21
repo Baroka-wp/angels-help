@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AngelsList should diplay the six categories render properly 1`] = `
+<div
+  data-testid="angels-list"
+>
+  <div
+    className="loader"
+  />
+  <div>
+    <div
+      className="hero-cover"
+    />
+    <div
+      className="hero"
+    >
+      <h3>
+        Angel
+      </h3>
+      <p>
+        Angels are messengers who help you to get in touch with God to ask Him for the 
+        Angel
+         whatever you want.
+      </p>
+    </div>
+  </div>
+  <div
+    className="angelsListContainer"
+  />
+</div>
+`;

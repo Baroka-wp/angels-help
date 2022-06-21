@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Home from './components/Home';
+import AngelsDetails from './components/Pages/AngelsDetails';
+import AngelsList from './components/Pages/AngelsList';
+import { fetchAgels } from './redux/angels/angels';
 
-function App() {
+const App = () => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchAgels());
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/angels-help" element={<Home />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/angels-help/angelsList" element={<AngelsList />} />
+      <Route path="/angels-help/angelsDetails" element={<AngelsDetails />} />
+    </Routes>
   );
-}
+};
 
 export default App;

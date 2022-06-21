@@ -1,38 +1,210 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+  padding: 7px;
+  background: #ec4e8a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.hero {
+  padding: 30px;
+  text-align: right;
+  height: 40vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5331632653061225) 8%, rgba(236, 78, 138, 0.4285714285714286) 100%);
+}
+
+.hero h3 {
+  font-size: 40px;
+}
+
+.hero small {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.hero p {
+  font-size: 22px;
+  font-style: italic;
+}
+
+.home_h2 {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 17px;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+}
+
+.hero-cover {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 40vh;
+  background: url(./images/angel.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  cursor: pointer;
+  height: 20vh;
+  width: 50%;
+  position: relative;
+  background: #ec4e8a;
+}
+
+.card h3 {
+  font-size: 20px;
+}
+
+.card:hover {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5331632653061225) 8%, rgba(236, 78, 138, 0.4285714285714286) 100%);
+}
+
+.card-cover {
+  position: absolute;
+  height: 20vh;
+  background: url(./images/angel.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card.ligth-card {
+  background: #cd4275;
+}
+
+.card.ligth-card:hover {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.082) 8%, rgba(236, 78, 138, 0.4285714285714286) 100%);
+}
+
+.sumary {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+
+.card-icone {
+  font-size: 60px;
+  color: #b13967;
+}
+
+.angelsList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background: #ec4e8a;
+}
+
+.angelsList.ligth-card {
+  background: #cd4275;
+}
+
+.DetailsBody {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.textCard {
+  padding: 20px 30px;
+  color: antiquewhite;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5331632653061225) 8%, rgba(236, 78, 138, 0.4285714285714286) 100%);
+}
+
+.callFormula {
+  padding: 10px 30px;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+.details {
+  display: flex;
+  gap: 10px;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 5px;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #b13967;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+
+  100% {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .DetailsBody {
+    margin: 0 auto;
+    align-items: center;
+    width: 70%;
+  }
+
+  .card-icone {
+    font-size: 90px;
+    color: #b13967;
   }
 }

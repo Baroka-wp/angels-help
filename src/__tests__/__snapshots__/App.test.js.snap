@@ -1,0 +1,496 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should diplay properly in DOM App render properly 1`] = `
+Array [
+  <div>
+    <div
+      className="hero-cover"
+    />
+    <div
+      className="hero"
+    >
+      <h3>
+        CALIEL
+      </h3>
+      <small>
+        17/06-20/06
+      </small>
+      <p>
+        "God prompt to answer"
+      </p>
+    </div>
+  </div>,
+  <h2
+    className="home_h2"
+  >
+    Which issue in your live, do you want to resolve ?
+  </h2>,
+  <div
+    className="main-container"
+  >
+    <a
+      className="card"
+      href="/angels-help/angelsList"
+      name="money"
+      onClick={[Function]}
+    >
+      <div
+        className="sumary"
+      >
+        <div
+          className="icone"
+        >
+          <svg
+            className="card-icone"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M258 21.89c-.5 0-1.2 0-1.8.12-4.6.85-10.1 5.1-13.7 14.81-3.8 9.7-4.6 23.53-1.3 38.34 3.4 14.63 10.4 27.24 18.2 34.94 7.6 7.7 14.5 9.8 19.1 9 4.8-.7 10.1-5.1 13.7-14.7 3.8-9.64 4.8-23.66 1.4-38.35-3.5-14.8-10.4-27.29-18.2-34.94-6.6-6.8-12.7-9.22-17.4-9.22zM373.4 151.4c-11 .3-24.9 3.2-38.4 8.9-15.6 6.8-27.6 15.9-34.2 24.5-6.6 8.3-7.2 14.6-5.1 18.3 2.2 3.7 8.3 7.2 20 7.7 11.7.7 27.5-2.2 43-8.8 15.5-6.7 27.7-15.9 34.3-24.3 6.6-8.3 7.1-14.8 5-18.5-2.1-3.8-8.3-7.1-20-7.5-1.6-.3-3-.3-4.6-.3zm-136.3 92.9c-6.6.1-12.6.9-18 2.3-11.8 3-18.6 8.4-20.8 14.9-2.5 6.5 0 14.3 7.8 22.7 8.2 8.2 21.7 16.1 38.5 20.5 16.7 4.4 32.8 4.3 44.8 1.1 12.1-3.1 18.9-8.6 21.1-15 2.3-6.5 0-14.2-8.1-22.7-7.9-8.2-21.4-16.1-38.2-20.4-9.5-2.5-18.8-3.5-27.1-3.4zm160.7 58.1L336 331.7c4.2.2 14.7.5 14.7.5l6.6 8.7 54.7-28.5-14.2-10zm-54.5.1l-57.4 27.2c5.5.3 18.5.5 23.7.8l49.8-23.6-16.1-4.4zm92.6 10.8l-70.5 37.4 14.5 18.7 74.5-44.6-18.5-11.5zm-278.8 9.1a40.33 40.33 0 0 0-9 1c-71.5 16.5-113.7 17.9-126.2 17.9H18v107.5s11.6-1.7 30.9-1.8c37.3 0 103 6.4 167 43.8 3.4 2.1 10.7 2.9 19.8 2.9 24.3 0 61.2-5.8 69.7-9C391 452.6 494 364.5 494 364.5l-32.5-28.4s-79.8 50.9-89.9 55.8c-91.1 44.7-164.9 16.8-164.9 16.8s119.9 3 158.4-27.3l-22.6-34s-82.8-2.3-112.3-6.2c-15.4-2-48.7-18.8-73.1-18.8z"
+            />
+          </svg>
+        </div>
+        <div
+          className="details"
+        >
+          <div>
+            <h3>
+              Money
+            </h3>
+            <p>
+              0
+               Angels
+            </p>
+          </div>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="10"
+            />
+            <polyline
+              points="12 16 16 12 12 8"
+            />
+            <line
+              x1="8"
+              x2="16"
+              y1="12"
+              y2="12"
+            />
+          </svg>
+        </div>
+      </div>
+    </a>
+    <a
+      className="card ligth-card"
+      href="/angels-help/angelsList"
+      onClick={[Function]}
+    >
+      <div
+        className="sumary"
+      >
+        <div
+          className="icone"
+        >
+          <svg
+            className="card-icone"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M368.916 38.908c-15.49.145-31.22 3.356-46.316 9.82-40.01 25.788-50.568 67.182-60.502 109.32 44.02-10.522 87.27-21.872 112.422-65.44l.005 145.12c-25.506-44.172-68.58-55.153-112.44-65.492 10.338 43.86 21.32 86.932 65.493 112.436l-145.12-.002c43.563-25.152 54.914-68.402 65.435-112.42-43.837 10.336-86.88 21.325-112.375 65.48l.002-145.12c25.14 43.545 68.36 54.902 112.357 65.417-9.795-40.978-20.336-81.273-56.916-106.922-75.954-34.415-171.507 8.28-168.19 112.21 4.593 143.862 210.47 227.71 232.626 310.408 20.28-75.672 236.27-172.54 231.944-310.407h.002C484.876 84.78 430.587 39.92 372.01 38.92c-1.03-.018-2.06-.02-3.094-.012zM255.094 306.645c15.93 0 28.844 12.913 28.844 28.843s-12.914 28.846-28.844 28.846c-15.93 0-28.844-12.916-28.844-28.846s12.914-28.843 28.844-28.843z"
+            />
+          </svg>
+        </div>
+        <div
+          className="details"
+        >
+          <div>
+            <h3>
+              Love
+            </h3>
+            <p>
+              0
+               Angels
+            </p>
+          </div>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="10"
+            />
+            <polyline
+              points="12 16 16 12 12 8"
+            />
+            <line
+              x1="8"
+              x2="16"
+              y1="12"
+              y2="12"
+            />
+          </svg>
+        </div>
+      </div>
+    </a>
+    <a
+      className="card ligth-card"
+      href="/angels-help/angelsList"
+      onClick={[Function]}
+    >
+      <div
+        className="sumary"
+      >
+        <div
+          className="icone"
+        >
+          <svg
+            className="card-icone"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 29c-17.3 0-34.7 1.98-48.1 5.68-13.4 3.69-22 9.64-23.8 13.35-29 57.97-30.9 130.57-31 178.97h205.8c-.1-48.4-2-121-31-178.97-1.8-3.71-10.4-9.66-23.8-13.35C290.7 30.98 273.3 29 256 29zM48 167v18h48v-18zm368 0v18h48v-18zM71 204v68.8l31.2 20.8c1.6-6 4.2-11.6 7.3-16.7L89 263.2V204zm352 0v59.2l-20.5 13.7c3.1 5.1 5.7 10.7 7.3 16.7l31.2-20.8V204zm-190 41v14h46v-14zm-100.9 32c-6.2 6.9-11.9 16.4-13.2 24.5-1.5 8.7-.2 15.1 11.4 21.5h251.4c11.6-6.4 12.9-12.8 11.4-21.5-1.3-8.1-7-17.6-13.2-24.5zM247 341v32l-121.2 30.3 4.4 17.4L247 391.5V420c2.9-.6 5.9-1 9-1 3.1 0 6.1.4 9 1v-28.5l116.8 29.2 4.4-17.4L265 373v-32zm-119 96c-12.8 0-23 10.2-23 23s10.2 23 23 23 23-10.2 23-23-10.2-23-23-23zm128 0c-12.8 0-23 10.2-23 23s10.2 23 23 23 23-10.2 23-23-10.2-23-23-23zm128 0c-12.8 0-23 10.2-23 23s10.2 23 23 23 23-10.2 23-23-10.2-23-23-23z"
+            />
+          </svg>
+        </div>
+        <div
+          className="details"
+        >
+          <div>
+            <h3>
+              Job
+            </h3>
+            <p>
+              0
+               Angels
+            </p>
+          </div>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="10"
+            />
+            <polyline
+              points="12 16 16 12 12 8"
+            />
+            <line
+              x1="8"
+              x2="16"
+              y1="12"
+              y2="12"
+            />
+          </svg>
+        </div>
+      </div>
+    </a>
+    <a
+      className="card"
+      href="/angels-help/angelsList"
+      onClick={[Function]}
+    >
+      <div
+        className="sumary"
+      >
+        <div
+          className="icone"
+        >
+          <svg
+            className="card-icone"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M250.9 18.9c-23.9 2.99-45.3 30.65-45.3 66.99 0 19.91 6.8 37.41 16.8 49.61l12.2 14.5-18.7 3.5c-13 2.5-22.6 9.5-30.7 20.8-8.5 11.5-14.8 26.9-19.1 45.2-8 32.7-9.9 72.7-9.9 108.2h43.6l11.7 160.5c30.4 7 63.1 6.5 92.3 0l10.7-160.5H356c0-35.7-.5-76.4-7.8-109.7-3.9-17.9-10-33.7-18.2-45.1-8.2-11.1-18.5-17.8-33.3-20.1l-18.9-3 11.9-14.9c9.9-12.1 16.4-29.6 16.4-49.01 0-38.54-24-66.99-50.3-66.99h-4.9zm145 3.59v41.85h-41.8v50.16h41.8v41.6h49.9v-41.6h41.9V64.34h-41.9V22.49h-49.9zM52.92 62.89v30.58H22.39v36.63h30.53v30.4h36.4v-30.4h30.58V93.47H89.32V62.89h-36.4zM92.63 199.7v21.8H70.75v26.3h21.88v21.9h26.27v-21.9h21.8v-26.3h-21.8v-21.8H92.63zm355.07 62.4v21.8h-21.9v26.3h21.9v21.9H474v-21.9h21.8v-26.3H474v-21.8h-26.3zm-307.5 99.4v15h-15v18h15v15h18.1v-15h15v-18h-15v-15h-18.1zm230 45.8v15h-15v18h15v15h18v-15h15v-18h-15v-15h-18zM49.32 431.8v15h-15v18h15v15h18.01v-15h15v-18h-15v-15H49.32z"
+            />
+          </svg>
+        </div>
+        <div
+          className="details"
+        >
+          <div>
+            <h3>
+              Health
+            </h3>
+            <p>
+              0
+               Angels
+            </p>
+          </div>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="10"
+            />
+            <polyline
+              points="12 16 16 12 12 8"
+            />
+            <line
+              x1="8"
+              x2="16"
+              y1="12"
+              y2="12"
+            />
+          </svg>
+        </div>
+      </div>
+    </a>
+    <a
+      className="card"
+      href="/angels-help/angelsList"
+      onClick={[Function]}
+    >
+      <div
+        className="sumary"
+      >
+        <div
+          className="icone"
+        >
+          <svg
+            className="card-icone"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M41 25v462h46V71h31.3c-9-3.83-15.3-12.74-15.3-23s6.3-19.17 15.3-23H41zm96.7 0c9 3.83 15.3 12.74 15.3 23s-6.3 19.17-15.3 23h36.4c-4.5-6.57-7.1-14.49-7.1-23s2.6-16.43 7.1-23h-36.4zm70.3 0c-12.8 0-23 10.19-23 23s10.2 23 23 23 23-10.19 23-23-10.2-23-23-23zm33.9 0c4.5 6.57 7.1 14.49 7.1 23s-2.6 16.43-7.1 23h36.4c-9-3.83-15.3-12.74-15.3-23s6.3-19.17 15.3-23h-36.4zm55.8 0c9 3.83 15.3 12.74 15.3 23s-6.3 19.17-15.3 23H329v416h46V25h-77.3zm173.9 32.64l-32 32 12.8 12.76 32-32.04-12.8-12.72zM393 121v46h38.9c5.1 0 5.1-1.2 6-3 1-1.9 1.1-4 1.1-4v-32s-.1-2.1-1.1-4c-.9-1.8-.9-3-5.9-3h-39zm69 14v18h32v-18h-32zm-257.8 13.3c-17 2.2-32.5 22.1-32.5 48 0 14.2 5.1 26.8 12.3 35.4l8.5 10.3-13.3 2.5c-9.3 1.8-16.1 6.9-22 14.9-5.9 8-10.3 19.3-13.5 32.3-5.8 23.3-7 52.1-7.2 77.4h31.4l8.5 114.9c21.8 4.8 44.9 4.5 65.9 0l7.5-114.9h29.7c0-25.6-.4-54.7-5.5-78.4-2.9-12.9-7.2-24.2-13.1-32.1-6-8.1-13.3-13-23.8-14.7l-13.6-2 8.8-10.8c6.6-8.6 11.2-21 11.2-34.8 0-27.5-17.1-48-35.8-48h-3.5zm248.2 37.3l-12.8 12.8 32 32 12.8-12.8-32-32z"
+            />
+          </svg>
+        </div>
+        <div
+          className="details"
+        >
+          <div>
+            <h3>
+              Protection
+            </h3>
+            <p>
+              0
+               Angels
+            </p>
+          </div>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="10"
+            />
+            <polyline
+              points="12 16 16 12 12 8"
+            />
+            <line
+              x1="8"
+              x2="16"
+              y1="12"
+              y2="12"
+            />
+          </svg>
+        </div>
+      </div>
+    </a>
+    <a
+      className="card ligth-card"
+      href="/angels-help/angelsList"
+      onClick={[Function]}
+    >
+      <div
+        className="sumary"
+      >
+        <div
+          className="icone"
+        >
+          <svg
+            className="card-icone"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M277.854 21.719c-42.24 50.44-30.12 165.073-10.278 229.41-8.823-8.305-17.446-16.118-25.812-23.387-5.581-55.64-117.363-188.328-202.098-190.19 2.771 78.685 124.137 172.463 180.691 195.653 14.428 12.115 29.969 26.308 46.149 42.027-59.03-33.653-178.97-59.817-234.844-23.816 59.766 44.872 233.049 63.704 265.484 54.621a1693.737 1693.737 0 0 1 36.25 38.797c-55.853-23.885-157.472-36.098-202.011-1.172 54.464 40.555 188.82 44.708 229.54 32.21 3.934 4.535 7.853 9.094 11.753 13.675 2.996.302 6.094.98 9.295 2.123 12.626 4.507 20.422 15.172 22.92 26.547.833 3.796 1.186 7.685 1.152 11.605 14.986 18.605 29.373 37.188 42.752 55.297l14.476-10.697c-16.839-22.792-35.148-46.257-54.228-69.565 31.873-41.549 67.814-172.887 55.117-219.543-52.034 31.759-73.942 139.617-73.437 197.495a1941.033 1941.033 0 0 0-27.368-31.727c31.31-41.627 43.085-205.433 6.63-265.377-50.245 49.897-44.597 179.608-27.876 241.664-14.942-16.378-29.879-32.145-44.525-46.933 22.143-51.978 26.677-206.07-19.732-258.717zm61.59 376.996c-12.783 1.613-26.198 3.251-39.692 4.355-12.109 18.294-16.618 46.407-3.14 50.87 3.905 1.292 9.837.202 16.66-4.172 3.934-2.523 7.937-6.049 11.605-10.125 2.34-13.053 7.71-25.83 15.504-35.243-.079-2.09-.362-3.974-.938-5.685zm-77.397 5.52c-29.695 7.102-56.292 19.962-70.83 39.75 21.218 1.826 49.561 2.081 78.683.898-1.865-12.53 1.392-27.381 7.995-40.604-5.354.134-10.655.142-15.848-.045zm107.88 3.185c-28.637-1.056-37.024 69.093-14.624 71.232 4.095.391 9.635-1.993 15.312-7.777 5.678-5.784 10.93-14.503 14.076-23.566 3.146-9.063 4.114-18.425 2.62-25.233-1.495-6.807-4.378-10.953-11.39-13.455-2.085-.744-4.084-1.13-5.993-1.201z"
+            />
+          </svg>
+        </div>
+        <div
+          className="details"
+        >
+          <div>
+            <h3>
+              Energy
+            </h3>
+            <p>
+              0
+               Angels
+            </p>
+          </div>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="10"
+            />
+            <polyline
+              points="12 16 16 12 12 8"
+            />
+            <line
+              x1="8"
+              x2="16"
+              y1="12"
+              y2="12"
+            />
+          </svg>
+        </div>
+      </div>
+    </a>
+  </div>,
+]
+`;
