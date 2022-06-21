@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import App from './App';
-import store from './components/redux/configureStore';
+import store from './redux/configureStore';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

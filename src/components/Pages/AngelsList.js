@@ -1,12 +1,19 @@
 import React from 'react';
 import { FiArrowRightCircle } from 'react-icons/fi';
+import { useSelector } from 'react-redux';
 import { Link, useLocation } from 'react-router-dom';
+import Spinner from './Spinner';
 
 const AngelsList = () => {
+  const angels = useSelector((state) => state.angels);
+  const loading = useSelector((state) => state.loader);
   const location = useLocation();
-  const { angelsList, category } = location.state;
+  const { category } = location.state;
+  const angelsList = [...angels].filter((item) => item.category === category);
+
   return (
-    <div>
+    <div data-testid="angels-list">
+      {loading && <Spinner />}
       <div>
         <div className="hero-cover" />
         <div className="hero">
