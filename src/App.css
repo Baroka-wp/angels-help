@@ -122,15 +122,15 @@ button {
 }
 
 .card-icone {
-  font-size: 90px;
+  font-size: 60px;
   color: #b13967;
 }
 
 .angelsList {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 20px 30px;
   background: #ec4e8a;
 }
 
@@ -158,6 +158,11 @@ button {
   text-align: center;
 }
 
+.details {
+  display: flex;
+  gap: 10px;
+}
+
 footer {
   font-size: 14px;
   text-align: center;
@@ -170,5 +175,10 @@ footer {
     margin: 0 auto;
     align-items: center;
     width: 70%;
+  }
+
+  .card-icone {
+    font-size: 90px;
+    color: #b13967;
   }
 }
