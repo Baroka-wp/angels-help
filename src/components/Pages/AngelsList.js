@@ -6,8 +6,8 @@ import Spinner from './Spinner';
 
 const AngelsList = () => {
   const angelsList = useSelector((state) => state.angels);
-  const categoryName = 'Angel'
-  if (angelsList.lenght > 0) {
+  let categoryName = 'Angel';
+  if (angelsList.length > 0) {
     categoryName = [...angelsList][0].category;
   }
   const loading = useSelector((state) => state.loader);
