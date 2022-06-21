@@ -69,7 +69,7 @@ Array [
             </h3>
             <p>
               0
-              Angels
+               Angels
             </p>
           </div>
           <svg
@@ -109,7 +109,6 @@ Array [
     <a
       className="card ligth-card"
       href="/angels-help/angelsList"
-      name="love"
       onClick={[Function]}
     >
       <div
@@ -147,7 +146,7 @@ Array [
             </h3>
             <p>
               0
-              Angels
+               Angels
             </p>
           </div>
           <svg
@@ -187,7 +186,6 @@ Array [
     <a
       className="card ligth-card"
       href="/angels-help/angelsList"
-      name="job"
       onClick={[Function]}
     >
       <div
@@ -225,7 +223,7 @@ Array [
             </h3>
             <p>
               0
-              Angels
+               Angels
             </p>
           </div>
           <svg
@@ -265,7 +263,6 @@ Array [
     <a
       className="card"
       href="/angels-help/angelsList"
-      name="health"
       onClick={[Function]}
     >
       <div
@@ -303,7 +300,7 @@ Array [
             </h3>
             <p>
               0
-              Angels
+               Angels
             </p>
           </div>
           <svg
@@ -343,7 +340,6 @@ Array [
     <a
       className="card"
       href="/angels-help/angelsList"
-      name="protection"
       onClick={[Function]}
     >
       <div
@@ -381,7 +377,7 @@ Array [
             </h3>
             <p>
               0
-              Angels
+               Angels
             </p>
           </div>
           <svg
@@ -421,7 +417,6 @@ Array [
     <a
       className="card ligth-card"
       href="/angels-help/angelsList"
-      name="spirituality"
       onClick={[Function]}
     >
       <div
@@ -459,7 +454,7 @@ Array [
             </h3>
             <p>
               0
-              Angels
+               Angels
             </p>
           </div>
           <svg

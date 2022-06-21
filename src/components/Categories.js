@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { FiArrowRightCircle } from 'react-icons/fi';
 import {
@@ -9,13 +10,20 @@ import {
   GiSecurityGate,
   GiOlive,
 } from 'react-icons/gi';
-import { useSelector } from 'react-redux';
+import { fetchAgels, filterAngels } from '../redux/angels/angels';
 
 const Categories = () => {
-  const store = useSelector((state) => state.angels);
-  const countAngelsbyCategory = (categoryName) => {
-    const angelList = [...store].filter((item) => item.category === categoryName);
-    return { count: angelList.length };
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchAgels());
+  }, []);
+  const state = useSelector((state) => state.angels);
+  const countAngelsbyCategory = (c) => {
+    const temp = [...state].filter((item) => item.category === c);
+    return temp.length;
+  };
+  const filterby = (category) => {
+    dispatch(filterAngels(category));
   };
 
   return (
@@ -23,7 +31,7 @@ const Categories = () => {
       <Link
         to="/angels-help/angelsList"
         name="money"
-        state={{ category: 'Money' }}
+        onClick={() => filterby('Money')}
         className="card"
       >
         <div className="sumary">
@@ -34,8 +42,8 @@ const Categories = () => {
             <div>
               <h3>Money</h3>
               <p>
-                {countAngelsbyCategory('Money').count}
-                Angels
+                {countAngelsbyCategory('Money')}
+                &nbsp;Angels
               </p>
             </div>
             <FiArrowRightCircle />
@@ -44,8 +52,7 @@ const Categories = () => {
       </Link>
       <Link
         to="/angels-help/angelsList"
-        name="love"
-        state={{ category: 'Love' }}
+        onClick={() => filterby('Love')}
         className="card ligth-card"
       >
         <div className="sumary">
@@ -56,8 +63,8 @@ const Categories = () => {
             <div>
               <h3>Love</h3>
               <p>
-                {countAngelsbyCategory('Love').count}
-                Angels
+                {countAngelsbyCategory('Love')}
+                &nbsp;Angels
               </p>
             </div>
             <FiArrowRightCircle />
@@ -66,8 +73,7 @@ const Categories = () => {
       </Link>
       <Link
         to="/angels-help/angelsList"
-        name="job"
-        state={{ category: 'Job' }}
+        onClick={() => filterby('Job')}
         className="card ligth-card"
       >
         <div className="sumary">
@@ -78,8 +84,8 @@ const Categories = () => {
             <div>
               <h3>Job</h3>
               <p>
-                {countAngelsbyCategory('Job').count}
-                Angels
+                {countAngelsbyCategory('Job')}
+                &nbsp;Angels
               </p>
             </div>
             <FiArrowRightCircle />
@@ -88,8 +94,7 @@ const Categories = () => {
       </Link>
       <Link
         to="/angels-help/angelsList"
-        name="health"
-        state={{ category: 'health' }}
+        onClick={() => filterby('health')}
         className="card"
       >
         <div className="sumary">
@@ -100,8 +105,8 @@ const Categories = () => {
             <div>
               <h3>Health</h3>
               <p>
-                {countAngelsbyCategory('health').count}
-                Angels
+                {countAngelsbyCategory('health')}
+                &nbsp;Angels
               </p>
             </div>
             <FiArrowRightCircle />
@@ -110,8 +115,7 @@ const Categories = () => {
       </Link>
       <Link
         to="/angels-help/angelsList"
-        name="protection"
-        state={{ category: 'Protection' }}
+        onClick={() => filterby('Protection')}
         className="card"
       >
         <div className="sumary">
@@ -122,8 +126,8 @@ const Categories = () => {
             <div>
               <h3>Protection</h3>
               <p>
-                {countAngelsbyCategory('Protection').count}
-                Angels
+                {countAngelsbyCategory('Protection')}
+                &nbsp;Angels
               </p>
             </div>
             <FiArrowRightCircle />
@@ -132,8 +136,7 @@ const Categories = () => {
       </Link>
       <Link
         to="/angels-help/angelsList"
-        name="spirituality"
-        state={{ category: 'Spirituality' }}
+        onClick={() => filterby('Spirituality')}
         className="card ligth-card"
       >
         <div className="sumary">
@@ -144,8 +147,8 @@ const Categories = () => {
             <div>
               <h3>Energy</h3>
               <p>
-                {countAngelsbyCategory('Spirituality').count}
-                Angels
+                {countAngelsbyCategory('Spirituality')}
+                &nbsp;Angels
               </p>
             </div>
             <FiArrowRightCircle />
