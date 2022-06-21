@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-@media only screen and (max-width: 600px) {
   body {
     background-color: black;
     color: white;
@@ -43,6 +42,13 @@
     font-style: italic;
   }
 
+  .home_h2 {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 17px;
+    font-style: italic;
+  }
+
   a {
     text-decoration: none;
     color: white;
@@ -74,12 +80,6 @@
     margin-bottom: 20px;
   }
 
-  .main-container h2 {
-    padding: 20px 0;
-    font-size: 17px;
-    font-style: italic;
-  }
-
   .card {
     cursor: pointer;
     height: 20vh;
@@ -89,7 +89,7 @@
   }
 
   .card h3{
-   font-size: 25px;
+   font-size: 20px;
   }
 
   .card:hover {
@@ -163,4 +163,11 @@
     padding: 10px 0;
     margin-bottom: 5px;
   }
-}
+
+  @media only screen and (min-width: 720px) {
+    .DetailsBody {
+      margin: 0 auto;
+      align-items: center;
+      width: 70%;
+    }
+  }

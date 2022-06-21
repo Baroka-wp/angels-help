@@ -3,7 +3,7 @@ import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
 const AngelsList = () => (
-  <div className="angelsListContainer">
+  <div>
     <div>
       <div className="hero-cover" />
       <div className="hero">
@@ -14,34 +14,36 @@ const AngelsList = () => (
         </p>
       </div>
     </div>
-    <Link to="/angelDetails" className="angelsList">
-      <div className="angel">
-        <h3>LELAHEL</h3>
-        <p>Praise God</p>
-      </div>
-      <BsArrowRight />
-    </Link>
-    <Link to="/angelDetails" className="angelsList ligth-card">
-      <div className="angel">
-        <h3>LELAHEL</h3>
-        <p>Praise God</p>
-      </div>
-      <BsArrowRight />
-    </Link>
-    <Link to="/angelDetails" className="angelsList">
-      <div className="angel">
-        <h3>LELAHEL</h3>
-        <p>Praise God</p>
-      </div>
-      <BsArrowRight />
-    </Link>
-    <Link to="/angelDetails" className="angelsList ligth-card">
-      <div className="angel">
-        <h3>LELAHEL</h3>
-        <p>Praise God</p>
-      </div>
-      <BsArrowRight />
-    </Link>
+    <div className="angelsListContainer">
+      <Link to="/angelDetails" className="angelsList">
+        <div className="angel">
+          <h3>LELAHEL</h3>
+          <p>Praise God</p>
+        </div>
+        <BsArrowRight />
+      </Link>
+      <Link to="/angelDetails" className="angelsList ligth-card">
+        <div className="angel">
+          <h3>LELAHEL</h3>
+          <p>Praise God</p>
+        </div>
+        <BsArrowRight />
+      </Link>
+      <Link to="/angelDetails" className="angelsList">
+        <div className="angel">
+          <h3>LELAHEL</h3>
+          <p>Praise God</p>
+        </div>
+        <BsArrowRight />
+      </Link>
+      <Link to="/angelDetails" className="angelsList ligth-card">
+        <div className="angel">
+          <h3>LELAHEL</h3>
+          <p>Praise God</p>
+        </div>
+        <BsArrowRight />
+      </Link>
+    </div>
   </div>
 );
 

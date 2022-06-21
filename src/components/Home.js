@@ -5,8 +5,8 @@ import Categories from './Categories';
 const Home = () => (
   <>
     <Hero />
+    <h2 className="home_h2">Which issue in your live, do you want to resolve ?</h2>
     <div className="main-container">
-      <h2>Which issue in your live, do you want to resolve ?</h2>
       <Categories />
     </div>
   </>
