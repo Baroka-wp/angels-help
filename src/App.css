@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -107,11 +110,11 @@ button {
 }
 
 .card.ligth-card {
-  background: #cd4275 !important;
+  background: #cd4275;
 }
 
 .card.ligth-card:hover {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.082) 8%, rgba(236, 78, 138, 0.4285714285714286) 100%) !important;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.082) 8%, rgba(236, 78, 138, 0.4285714285714286) 100%);
 }
 
 .sumary {
@@ -135,7 +138,7 @@ button {
 }
 
 .angelsList.ligth-card {
-  background: #cd4275 !important;
+  background: #cd4275;
 }
 
 .DetailsBody {
