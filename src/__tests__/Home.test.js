@@ -31,5 +31,5 @@ describe('Home should diplay the six categories', () => {
       </Provider>,
     ).toJSON();
     expect(tree).toMatchSnapshot();
-  })
-})
+  });
+});

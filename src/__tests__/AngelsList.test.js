@@ -2,10 +2,8 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { createMemoryHistory } from 'history'
 import { Provider } from 'react-redux';
 import store from '../redux/configureStore';
-import AngelsList from '../components/Pages/AngelsList';
 import Categories from '../components/Categories';
 
 describe('AngelsList should diplay the six categories', () => {
@@ -15,7 +13,7 @@ describe('AngelsList should diplay the six categories', () => {
         <Router>
           <Categories />
         </Router>
-      </Provider >,
+      </Provider>,
     );
     expect(screen.queryByText(/CALIEL/)).toBeNull();
   });
@@ -28,5 +26,5 @@ describe('AngelsList should diplay the six categories', () => {
       </Provider>,
     ).toJSON();
     expect(tree).toMatchSnapshot();
-  })
-})
+  });
+});
