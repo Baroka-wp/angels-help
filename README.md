@@ -23,7 +23,7 @@ Build an application that allows the user to find which angel to pray to for hel
 
 ## Live
 
-[Go Live](#)
+[Go Live](https://baroka-wp.github.io/angels-help/)
 
 ## Authors
 
