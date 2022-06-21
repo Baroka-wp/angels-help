@@ -22,9 +22,7 @@ Build an application that allows the user to find which angel to pray to for hel
 Original design idea by Nelson Sakwa in [Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)), in association with the Creative Commons license of the design.
 
 ![Capture d’écran 2022-06-21 à 14 27 19](https://user-images.githubusercontent.com/67879818/174838326-12bb041f-b6f6-4983-962a-a2982080b19a.png)
-
 ![Capture d’écran 2022-06-21 à 14 27 38](https://user-images.githubusercontent.com/67879818/174838354-a1a39283-7d6f-45d2-ae2e-bc3d680963b9.png)
-
 ![Capture d’écran 2022-06-21 à 14 27 57](https://user-images.githubusercontent.com/67879818/174838383-21721764-51a3-442a-9d52-20f564e66430.png)
 
 ## Live
