@@ -15,9 +15,10 @@ const App = () => {
 
   return (
     <Routes>
+      <Route path="/angels-help" element={<Home />} />
       <Route path="/" element={<Home />} />
-      <Route path="/angelsList" element={<AngelsList />} />
-      <Route path="/angelsDetails" element={<AngelsDetails />} />
+      <Route path="/angels-help/angelsList" element={<AngelsList />} />
+      <Route path="/angels-help/angelsDetails" element={<AngelsDetails />} />
     </Routes>
   );
 };

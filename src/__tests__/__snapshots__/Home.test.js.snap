@@ -26,11 +26,14 @@ Array [
     Which issue in your live, do you want to resolve ?
   </h2>,
   <div
+    className="loader"
+  />,
+  <div
     className="main-container"
   >
     <a
       className="card"
-      href="/angelsList"
+      href="/angels-help/angelsList"
       name="money"
       onClick={[Function]}
     >
@@ -69,7 +72,7 @@ Array [
             </h3>
             <p>
               0
-              Angels
+               Angels
             </p>
           </div>
           <svg
@@ -108,8 +111,7 @@ Array [
     </a>
     <a
       className="card ligth-card"
-      href="/angelsList"
-      name="love"
+      href="/angels-help/angelsList"
       onClick={[Function]}
     >
       <div
@@ -147,7 +149,7 @@ Array [
             </h3>
             <p>
               0
-              Angels
+               Angels
             </p>
           </div>
           <svg
@@ -186,8 +188,7 @@ Array [
     </a>
     <a
       className="card ligth-card"
-      href="/angelsList"
-      name="job"
+      href="/angels-help/angelsList"
       onClick={[Function]}
     >
       <div
@@ -225,7 +226,7 @@ Array [
             </h3>
             <p>
               0
-              Angels
+               Angels
             </p>
           </div>
           <svg
@@ -264,8 +265,7 @@ Array [
     </a>
     <a
       className="card"
-      href="/angelsList"
-      name="health"
+      href="/angels-help/angelsList"
       onClick={[Function]}
     >
       <div
@@ -303,7 +303,7 @@ Array [
             </h3>
             <p>
               0
-              Angels
+               Angels
             </p>
           </div>
           <svg
@@ -342,8 +342,7 @@ Array [
     </a>
     <a
       className="card"
-      href="/angelsList"
-      name="protection"
+      href="/angels-help/angelsList"
       onClick={[Function]}
     >
       <div
@@ -381,7 +380,7 @@ Array [
             </h3>
             <p>
               0
-              Angels
+               Angels
             </p>
           </div>
           <svg
@@ -420,8 +419,7 @@ Array [
     </a>
     <a
       className="card ligth-card"
-      href="/angelsList"
-      name="spirituality"
+      href="/angels-help/angelsList"
       onClick={[Function]}
     >
       <div
@@ -459,7 +457,7 @@ Array [
             </h3>
             <p>
               0
-              Angels
+               Angels
             </p>
           </div>
           <svg

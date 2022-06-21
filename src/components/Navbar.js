@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="header">
       {
-        window.location.pathname === '/'
+        window.location.pathname === '/angels-help'
           ? (
             <button type="button">Home</button>
           )
