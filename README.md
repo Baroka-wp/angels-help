@@ -8,7 +8,7 @@ Build an application that allows the user to find which angel to pray to for hel
 - spirituality
 
 ## LOOM VIDEO PRESENTING
-[Watch the presentation of the projet on Zoom](#)
+[Watch the presentation of the projet on Loom]([#](https://www.loom.com/share/26b2a1cb218f4f84afcc5bc8c30a1d3f))
 
 ## Built With
 
