@@ -3,171 +3,172 @@
   padding: 0;
 }
 
-  body {
-    background-color: black;
-    color: white;
-  }
+body {
+  background-color: black;
+  color: white;
+}
 
-  .header {
-    padding: 7px;
-    background: #ec4e8a ;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .header-actions {
-    display: flex;
-    gap: 10px;
-  }
+.header {
+  padding: 7px;
+  background: #ec4e8a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .hero {
-    padding: 30px;
-    text-align: right;
-    height: 40vh;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,0.5331632653061225) 8%, rgba(236,78,138,0.4285714285714286) 100%);
-  }
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
 
-  .hero h3 {
-    font-size: 40px;
-  }
-  .hero small {
-    font-size: 14px;
-    font-style: italic;
-  }
+.hero {
+  padding: 30px;
+  text-align: right;
+  height: 40vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5331632653061225) 8%, rgba(236, 78, 138, 0.4285714285714286) 100%);
+}
 
-  .hero p {
-    font-size: 22px;
-    font-style: italic;
-  }
+.hero h3 {
+  font-size: 40px;
+}
 
-  .home_h2 {
-    text-align: center;
-    padding: 20px 0;
-    font-size: 17px;
-    font-style: italic;
-  }
+.hero small {
+  font-size: 14px;
+  font-style: italic;
+}
 
-  a {
-    text-decoration: none;
-    color: white;
-  }
+.hero p {
+  font-size: 22px;
+  font-style: italic;
+}
 
-  button {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 14px;
-  }
+.home_h2 {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 17px;
+  font-style: italic;
+}
 
-  .hero-cover {
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 40vh;
-    background: url(./images/angel.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+a {
+  text-decoration: none;
+  color: white;
+}
 
-  .main-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
+button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+}
 
-  .card {
-    cursor: pointer;
-    height: 20vh;
-    width: 50%;
-    position: relative;
-    background: #ec4e8a;
-  }
+.hero-cover {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 40vh;
+  background: url(./images/angel.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .card h3{
-   font-size: 20px;
-  }
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 
-  .card:hover {
-    background: linear-gradient(90deg, rgba(0,0,0,0.5331632653061225) 8%, rgba(236,78,138,0.4285714285714286) 100%);
-  }
+.card {
+  cursor: pointer;
+  height: 20vh;
+  width: 50%;
+  position: relative;
+  background: #ec4e8a;
+}
 
-  .card-cover {
-    position: absolute;
-    height: 20vh;
-    background: url(./images/angel.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.card h3 {
+  font-size: 20px;
+}
 
-  .card.ligth-card:hover {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.082) 8%, rgba(236,78,138,0.4285714285714286) 100%) !important;
-  }
+.card:hover {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5331632653061225) 8%, rgba(236, 78, 138, 0.4285714285714286) 100%);
+}
 
-  .card.ligth-card {
-    background: #cd4275 !important;
-  }
-  
-  .sumary {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 20px auto;
-  }
+.card-cover {
+  position: absolute;
+  height: 20vh;
+  background: url(./images/angel.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .card-icone {
-    font-size: 90px;
-    color: #b13967 ;
-  }
+.card.ligth-card {
+  background: #cd4275 !important;
+}
 
-  .angelsList {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 0;
-    background: #ec4e8a;
-  }
+.card.ligth-card:hover {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.082) 8%, rgba(236, 78, 138, 0.4285714285714286) 100%) !important;
+}
 
-  .angelsList.ligth-card {
-    background: #cd4275 !important;
-  }
+.sumary {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px auto;
+}
 
+.card-icone {
+  font-size: 90px;
+  color: #b13967;
+}
+
+.angelsList {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  background: #ec4e8a;
+}
+
+.angelsList.ligth-card {
+  background: #cd4275 !important;
+}
+
+.DetailsBody {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.textCard {
+  padding: 20px 30px;
+  color: antiquewhite;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5331632653061225) 8%, rgba(236, 78, 138, 0.4285714285714286) 100%);
+}
+
+.callFormula {
+  padding: 10px 30px;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 720px) {
   .DetailsBody {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+    margin: 0 auto;
+    align-items: center;
+    width: 70%;
   }
-
-  .textCard {
-    padding: 20px 30px;
-    color: antiquewhite;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,0.5331632653061225) 8%, rgba(236,78,138,0.4285714285714286) 100%);
-  }
-
-  .callFormula {
-    padding: 10px 30px;
-    font-size: 16px;
-    font-style: italic;
-    text-align: center;
-  }
-
-  footer {
-    font-size: 14px;
-    text-align: center;
-    padding: 10px 0;
-    margin-bottom: 5px;
-  }
-
-  @media only screen and (min-width: 720px) {
-    .DetailsBody {
-      margin: 0 auto;
-      align-items: center;
-      width: 70%;
-    }
-  }
+}
